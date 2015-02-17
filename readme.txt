@@ -14,3 +14,5 @@ exec('git status', function(err, stdout, stdrr) {
     console.log("Seems there are changes\nto commit still.")
   } else console.log("Hmm, can't find\ncommitted changes.")
 })
+
+another line
